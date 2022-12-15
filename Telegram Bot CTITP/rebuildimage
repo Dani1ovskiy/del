@@ -1,0 +1,5 @@
+docker stop my-running-app
+docker rm my-running-app
+docker rmi my-python-app
+docker build -t my-python-app .
+docker run -it --rm --name my-running-app my-python-app
