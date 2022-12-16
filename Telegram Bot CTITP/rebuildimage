@@ -1,5 +1,6 @@
+git clone https://github.com/Dani1ovskiy/del.git
 docker stop my-running-app
 docker rm my-running-app
 docker rmi my-python-app
 docker build -t my-python-app .
-docker run -it --rm --name my-running-app my-python-app
+docker run -v /root/tgbot/del/tgbot1/sourcedata:/usr/src/app/dockerdata -it --rm --name my-running-app my-python-app
