@@ -1,5 +1,5 @@
 #bot
-token = '5979808555:AAEIKuLVOrDpzVyphL9Cd1a7JXCiE42zPVE'
+token = '5673113872:AAElC1OyRyupWpOBa1BUQ9RAMAHu_y5VZOQ'
 #mail
 smtp_addr = 'smtp.yandex.ru'
 smtp_port = 465
