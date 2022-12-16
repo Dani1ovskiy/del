@@ -7,5 +7,5 @@ RUN pip install --root-user-action=ignore requests --upgrade pip
 RUN pip install --root-user-action=ignore requests --no-cache-dir -r requirements.txt
 
 COPY . .
-#RUN mkdir ./dockerdata
+RUN mkdir ./dockerdata
 CMD [ "python", "./bot.py" ]
